@@ -3,7 +3,7 @@
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/chatbot-estoque.git
+git clone https://github.com/GRodriguesds/Chatbot-Estoque
 cd chatbot-estoque
 ```
 
