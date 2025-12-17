@@ -1,3 +1,7 @@
+# Chatbot de Estoque
+
+Um assistente virtual para funcionários de loja que permite consultar rapidamente a disponibilidade de produtos no estoque. O chatbot recebe perguntas sobre itens, verifica a base de dados e retorna se o produto está disponível, facilitando o atendimento e agilizando a gestão de inventário.
+
 ## Execução do Projeto
 
 ### Requisitos do Sistema
