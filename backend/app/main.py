@@ -21,14 +21,13 @@ class Pergunta(BaseModel):
 
 @app.post("/chat")
 def chat(pergunta: Pergunta):
-    produtos = buscar_produtos()  # 🔎 Retrieval
+    produtos = buscar_produtos()
 
     produtos_encontrados = extrair_produtos(pergunta.mensagem, produtos)
 
     if not produtos_encontrados:
         return {"resposta": "Nenhum produto correspondente encontrado no estoque."}
 
-    # Se encontrar mais de um, responda todos
     respostas = [
         gerar_resposta(produto, pergunta.mensagem)
         for produto in produtos_encontrados
