@@ -84,3 +84,5 @@ Garanta que o diretório esteja na pasta backend
 cd backend (caso não esteja na pasta)
 pytest -v
 ```
+
+> Projeto criado por Gabriel F. Rodrigues de Souza – Estudante de Análise e Desenvolvimento de Sistemas
