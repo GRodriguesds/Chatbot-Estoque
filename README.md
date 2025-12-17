@@ -1,5 +1,10 @@
 ## Execução do Projeto
 
+### Requisitos do Sistema
+- **Python** 3.10 – 3.13 ([download](https://www.python.org/downloads/))
+- **Node.js** 18+ ([download](https://nodejs.org/))
+- NPM 9+ (vem junto com Node.js)
+
 ### Clone o repositório
 
 ```bash
