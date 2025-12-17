@@ -53,3 +53,12 @@ Acesse:
 ```
 http://localhost:5173
 ```
+
+### Para realizar os testes
+
+Garanta que o diretório esteja na pasta backend
+
+```
+cd backend (caso não esteja na pasta)
+pytest -v
+```
