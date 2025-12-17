@@ -41,7 +41,7 @@ export default function App() {
       <div className="w-full max-w-xl h-[85vh] bg-zinc-900/90 backdrop-blur text-white rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-zinc-800">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-800">
-          <h1 className="text-xl font-bold tracking-wide">Chatbot de Estoque</h1>
+          <h1 className="text-xl font-bold tracking-wide">Estoque - Loja de Informática</h1>
           <button
             onClick={limparChat}
             className="flex items-center gap-2 text-sm bg-zinc-800 hover:bg-red-600/20 hover:text-red-400 px-3 py-1.5 rounded-lg transition"

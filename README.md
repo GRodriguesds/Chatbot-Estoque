@@ -1,11 +1,24 @@
 # Chatbot de Estoque
 
-Um assistente virtual para funcionários de loja de informática que permite consultar rapidamente a disponibilidade de produtos no estoque. O chatbot recebe perguntas sobre itens, verifica a base de dados e retorna se o produto está disponível, facilitando o atendimento e agilizando a gestão de inventário.
+Este projeto é um chatbot inteligente desenvolvido em Python para auxiliar no gerenciamento e consulta de um inventário de produtos. Ele utiliza FastAPI para criar a API, o modelo de linguagem Groq (LLM) para gerar respostas naturais e a técnica RAG (Retrieval-Augmented Generation) para integrar dados do inventário nas respostas do modelo.
 
-## Execução do Projeto
+### Funcionalidades
+
+Consulta de quantidade de produtos específicos no inventário.
+
+Retorna o total de produtos cadastrados.
+
+Respostas curtas e diretas, simulando um assistente de atendimento.
+
+Integração do modelo LLM com os dados da loja usando RAG, garantindo respostas precisas e contextualizadas.
+
+Fácil expansão para novos tipos de perguntas e dados.
+
+### Execução do Projeto
 
 ### Requisitos do Sistema
 - **Python** 3.10 – 3.13 ([download](https://www.python.org/downloads/))
+- pip (gerenciador de pacotes Python)
 - **Node.js** 18+ ([download](https://nodejs.org/))
 - NPM 9+ (vem junto com Node.js)
 
